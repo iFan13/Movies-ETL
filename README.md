@@ -1,6 +1,6 @@
 # Overview
 
-This repository hosts an Extract, Transform, and Load for a database on Movies cross referencing Wikipedia and MovieLens.org. Wikipedia extract is saved as a reference in the resources folder as [wikipedia-movies.json](/Resources/wikipedia-movies.json). The movies' meta data and ratings from MovieLens.org is downloaded from [Kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset). A snapshot of the data was taken for the week of February 15, 2021 and are included in this repository in the resources folder as [movies_metadata.csv](/Resources/movies_metadata.csv) and [ratings.csv](/Resources/ratings.csv).
+This repository hosts an Extract, Transform, and Load for a database on Movies cross referencing Wikipedia and MovieLens.org. The movies' meta data and ratings from MovieLens.org is downloaded from [Kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset). The data used for this repository was dated the week of February 15, 2021. CSV files have been removed for storage quota purposes.
 
 The data is read using Python in Jupyter Notebooks and cleaned up using knowledge of Pandas. It is then uploaded into a PostgreSQL database (specifically, PGAdmin).
 
